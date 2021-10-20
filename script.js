@@ -1,4 +1,4 @@
 function saveName() {
-  var urName = document.getElementById("name").value;
+  var urName = document.getElementById("nameOfUser").value;
   window.alert(urName)
 }
