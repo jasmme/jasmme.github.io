@@ -15,6 +15,7 @@ function saveName() {
 
 
 
-function thisWontWork() {
-  window.alert(urName);
+function getUser() {
+  var b = localStorage.getItem('uName');
+  document.getElementById("placeholder").innerHTML = "hello " + b; 
 }
