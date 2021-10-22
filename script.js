@@ -1,4 +1,4 @@
-var urName = ;
+var urName = "";
 
 function saveName() {
   //get value from input field and save as "a"
@@ -9,9 +9,7 @@ function saveName() {
   
   //automatically take user to page two.html
   location.href = "two.html";
-  
-  window.alert(urName);
-}
+ }
 
 
 
