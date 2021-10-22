@@ -1,4 +1,11 @@
+var urName = ;
+
 function saveName() {
-  var urName = document.getElementById("nameOfUser").value;
-  window.alert(urName)
+  urName = document.getElementById("nameOfUser").value;
+  window.alert(urName);
+}
+
+
+function thisWontWork() {
+  window.alert(urName);
 }
