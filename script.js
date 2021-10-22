@@ -3,6 +3,7 @@ var a;
 function saveName() {
   //get value from input field and save as "a"
   a = document.getElementById('nameOfUser').value;
+  document.getElementById("nameOfUser").value = "";
   
   //create LS key with value of "a"
   localStorage.setItem('uName',a);
